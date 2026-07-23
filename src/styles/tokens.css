@@ -1,0 +1,13 @@
+:root {
+  --color-cream: #f5f0e6;
+  --color-forest: #32483d;
+  --color-terracotta: #b85c3d;
+  --color-paper: #fffdf8;
+  --color-ink: #26352e;
+  --color-muted: #68746d;
+  --color-line: rgba(50, 72, 61, 0.16);
+  --shadow-card: 0 18px 44px rgba(50, 72, 61, 0.09);
+  --radius-large: 28px;
+  --radius-medium: 18px;
+  --content-width: 1160px;
+}
