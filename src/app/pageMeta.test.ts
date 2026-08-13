@@ -20,13 +20,14 @@ describe('resolvePage', () => {
 })
 
 describe('pageMeta', () => {
-  it('provides unique SEO metadata and matching canonical paths for every page', () => {
+  it('provides unique SEO metadata and matching absolute canonical URLs for every page', () => {
     expect(Object.values(pageMeta)).toHaveLength(6)
 
     for (const [key, meta] of Object.entries(pageMeta)) {
       expect(meta.title).toBeTruthy()
       expect(meta.description).toBeTruthy()
-      expect(meta.canonical).toBe(key === 'home' ? '/' : `/${key}/`)
+      const path = key === 'home' ? '/' : `/${key}/`
+      expect(meta.canonical).toBe(`https://pet-life-tools.netlify.app${path}`)
       expect(meta.faq).toHaveLength(2)
     }
   })

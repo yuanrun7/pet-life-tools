@@ -1,7 +1,7 @@
 宠物全生命周期纯工具站｜静态部署说明
 
 1. 将压缩包中的全部文件上传到静态托管根目录。
-2. 当前站点域名：https://pet-life-tools.vercel.app；如以后绑定自定义域名，请重新更新 sitemap.xml 和 robots.txt。
+2. 当前站点域名：https://pet-life-tools.netlify.app；如以后绑定自定义域名，请重新更新页面 canonical、Open Graph URL、sitemap.xml 和 robots.txt。
 3. 本站不需要服务器；档案仅保存在访客自己的浏览器。
 4. 若托管在子目录而不是域名根目录，需要调整 Vite base、manifest start_url 与页面链接。
 5. 疫苗驱虫与知识检索仅供管理和科普，不能替代执业兽医。

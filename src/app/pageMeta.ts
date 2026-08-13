@@ -12,11 +12,13 @@ export interface PageMeta {
   ]
 }
 
+const siteOrigin = 'https://pet-life-tools.netlify.app'
+
 export const pageMeta: Record<PageKey, PageMeta> = {
   home: {
     title: '猫狗生活工具箱｜本地、轻量、无追踪',
     description: '为猫狗家庭准备的日程、花费、寻宠、档案与照护指南工具，数据仅保存在本地。',
-    canonical: '/',
+    canonical: `${siteOrigin}/`,
     eyebrow: '陪伴每一个生活阶段',
     heading: '把猫狗生活里的重要小事，安稳放在一起',
     faq: [
@@ -27,7 +29,7 @@ export const pageMeta: Record<PageKey, PageMeta> = {
   schedule: {
     title: '宠物日程｜猫狗生活工具箱',
     description: '集中安排猫狗的喂食、用药、驱虫、洗护和复诊提醒。',
-    canonical: '/schedule/',
+    canonical: `${siteOrigin}/schedule/`,
     eyebrow: '规律照护',
     heading: '宠物日程',
     faq: [
@@ -38,7 +40,7 @@ export const pageMeta: Record<PageKey, PageMeta> = {
   cost: {
     title: '养宠花费｜猫狗生活工具箱',
     description: '在本地记录猫狗日常、医疗与用品花费，清楚了解养宠支出。',
-    canonical: '/cost/',
+    canonical: `${siteOrigin}/cost/`,
     eyebrow: '从容规划',
     heading: '养宠花费',
     faq: [
@@ -49,7 +51,7 @@ export const pageMeta: Record<PageKey, PageMeta> = {
   'lost-pet': {
     title: '走失寻宠｜猫狗生活工具箱',
     description: '快速整理猫狗走失信息与寻宠行动清单，为紧急时刻提供清晰指引。',
-    canonical: '/lost-pet/',
+    canonical: `${siteOrigin}/lost-pet/`,
     eyebrow: '紧急支持',
     heading: '走失寻宠',
     faq: [
@@ -60,7 +62,7 @@ export const pageMeta: Record<PageKey, PageMeta> = {
   records: {
     title: '健康档案｜猫狗生活工具箱',
     description: '在本地整理猫狗的基础信息、疫苗、驱虫和就诊记录。',
-    canonical: '/records/',
+    canonical: `${siteOrigin}/records/`,
     eyebrow: '安心留存',
     heading: '健康档案',
     faq: [
@@ -71,7 +73,7 @@ export const pageMeta: Record<PageKey, PageMeta> = {
   guide: {
     title: '照护指南｜猫狗生活工具箱',
     description: '按猫狗的不同生命阶段整理日常照护要点与就医提醒。',
-    canonical: '/guide/',
+    canonical: `${siteOrigin}/guide/`,
     eyebrow: '温和陪伴',
     heading: '照护指南',
     faq: [
