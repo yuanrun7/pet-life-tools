@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR-DOMAIN.example/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/schedule/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/cost/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/lost-pet/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/records/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide/</loc></url>
+  <url><loc>https://pet-life-tools.vercel.app/</loc></url>
+  <url><loc>https://pet-life-tools.vercel.app/schedule/</loc></url>
+  <url><loc>https://pet-life-tools.vercel.app/cost/</loc></url>
+  <url><loc>https://pet-life-tools.vercel.app/lost-pet/</loc></url>
+  <url><loc>https://pet-life-tools.vercel.app/records/</loc></url>
+  <url><loc>https://pet-life-tools.vercel.app/guide/</loc></url>
 </urlset>

@@ -21,7 +21,7 @@ node_modules\.bin\vite.cmd build --configLoader runner
 
 ## 上线前必须修改
 
-1. 将 `public/sitemap.xml`、`public/robots.txt` 以及页面 SEO 中的 `YOUR-DOMAIN.example` 替换为正式域名。
+1. 当前正式域名为 `https://pet-life-tools.vercel.app`；如以后绑定自定义域名，请同步更新 `public/sitemap.xml` 与 `public/robots.txt`。
 2. 重新运行生产构建。
 3. 检查生成页面的 canonical、Open Graph URL 和 sitemap 地址。
 
